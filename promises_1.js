@@ -131,3 +131,6 @@ fetch('https://catfact.ninja/fact').then(function (response) {
 }).then(function (result) {
     console.log(result);
 }).catch(function (error) { return console.log(error); });
+/* async and await  ==> these make the promises to write easier,
+async makes a function a return a promise
+await makes a function wait for a promise*/ 
